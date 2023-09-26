@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to top left, green, red);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: large;
+  border: none;
+  padding: 40px 80px;
+  margin: 20px 30px;
+  letter-spacing: 0.5px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: transform 0.5 ease-in, box-shadow 0.3 ease-in;
+}
+
+.btn1 {
+  box-shadow: 0, 20px, 25px color(white);
+}
+
+.btn1:hover {
+  box-shadow: 5px, 25px, 30px, color(black), 0, 10px, 20px, color(green);
+  transform: translateX(-5px);
+}
+
+.btn2 {
+  box-shadow: 5px, 30px, 35px color(blue);
+}
+
+.btn2:hover {
+  box-shadow: 5px, 25px, 30px, color(black), 0, 10px, 20px, color(green);
+  transform: rotateY(20deg);
+}
